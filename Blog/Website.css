@@ -1,0 +1,175 @@
+@media(max-width: 320px)
+{
+ .grid{
+       display: grid;
+       grid-template-columns: 320px;
+       grid-template-rows: 110px 435px 110px;
+       grid-template-areas: 
+        "hd hd hd hd hd hd"
+        "CT CT CT CT CT CT"
+        "ft ft ft ft ft ft";
+       /*border:1px solid crimson; /*Rahmen wird erst durch solid sichtbar */
+   }
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    grid-area: hd;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox1{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    width:  80px;
+    height: 110px;
+    /*border: 1px solid grey;*/
+}
+
+.box2{
+    width:  160px;
+    height: 110px;
+    /*border: 1px solid grey;*/
+}
+
+.content{
+    grid-area: CT;
+    display: grid;
+    grid-template-columns: repeat(2,160px);
+    grid-template-rows: repeat(3,140px);
+    /*border: 1px solid chartreuse;*/
+}
+
+.footer{
+    grid-area: ft;
+}
+}
+
+/* display>width 320px ********************************************************************************** */
+
+@media(min-width: 600px) and (max-width: 900px)
+{
+ .grid{
+       display: grid;
+       grid-template-columns: 640px;
+       grid-template-rows: 220px 870px 220px;
+       grid-template-areas: 
+        "hd hd hd hd hd hd"
+        "CT CT CT CT CT CT"
+        "ft ft ft ft ft ft";
+       /*border:1px solid crimson; Rahmen wird erst durch solid sichtbar */
+   }
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    grid-area: hd;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox1{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    width:  160px;
+    height: 220px;
+    /*border: 1px solid grey;*/
+}
+
+.box2{
+    width:  320px;
+    height: 220px;
+    /*border: 1px solid grey;*/
+}
+
+.content{
+    grid-area: CT;
+    display: grid;
+    grid-template-columns: repeat(2,320px);
+    grid-template-rows: repeat(3,280px);
+    /*border: 1px solid chartreuse;*/
+}
+
+.footer{
+    grid-area: ft;
+}
+}
+
+/*größe ab 901 px ************************************************************************ */ 
+
+@media(min-width: 901px)
+{
+ .grid{
+       display: grid;
+       grid-template-columns: 960px;
+       grid-template-rows: 330px 1305px 330px;
+       grid-template-areas: 
+        "hd hd hd hd hd hd"
+        "CT CT CT CT CT CT"
+        "ft ft ft ft ft ft";
+       /*border:1px solid crimson; /*Rahmen wird erst durch solid sichtbar */
+   }
+
+   .header{
+    grid-area: hd;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox1{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    width:  240px;
+    height: 330px;
+    /*border: 1px solid grey;*/
+}
+
+.box2{
+    width:  480px;
+    height: 330px;
+    /*border: 1px solid grey;*/
+}
+
+.content{
+    grid-area: CT;
+    display: grid;
+    grid-template-columns: repeat(2,480px);
+    grid-template-rows: repeat(3,420px);
+    /*border: 1px solid chartreuse;*/
+}
+
+.footer{
+    grid-area: ft;
+}
+
+}

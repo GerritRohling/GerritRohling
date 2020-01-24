@@ -1,0 +1,206 @@
+@media(max-width: 320px)
+{
+.nestedgrid{
+    display: grid;
+    grid-template-columns: repeat(2,160px);
+    grid-template-rows: repeat(3,140px);
+    grid-template-areas:
+    "obenlinks obenrechts"
+    "mittelinks mitterechts"
+    "untenlinks untenrechts";
+    grid-gap: 5px;
+}
+
+#Quadrat1{
+    grid-area: obenlinks;
+    display: grid;
+    width: 135px; /*160width-15width, wegen Grid-gap und border*/
+    height: 115px;
+    border: 5px solid grey;
+    padding: 5px;
+    font-size: 6pt;
+}
+#Quadrat2{
+    grid-area: obenrechts;
+    display: grid;
+    width: 135px;
+    height: 115px;
+    border: 5px solid grey;
+    padding: 5px;
+    font-size: 6pt;
+}
+#Quadrat3{
+    grid-area: mittelinks;
+    display: grid;
+    width: 135px;
+    height: 115px;
+    border: 5px solid grey;
+    padding: 5px;
+    font-size: 6pt;
+}
+#Quadrat4{
+    grid-area: mitterechts;
+    display: grid;
+    width: 135px;
+    height: 115px;
+    border: 5px solid grey;
+    padding: 5px;
+    font-size: 6pt;
+}
+#Quadrat5{
+    grid-area: untenlinks;
+    display: grid;
+    width: 135px;
+    height: 115px;
+    border: 5px solid grey;
+    padding: 5px;
+    font-size: 6pt;
+}
+#Quadrat6{
+    grid-area: untenrechts;
+    display: grid;
+    width: 135px;
+    height: 115px;
+    border: 5px solid grey;
+    padding: 5px;
+    font-size: 6pt;
+}
+}
+
+@media(min-width: 600px) and (max-width: 900px)
+{
+    .nestedgrid{
+        display: grid;
+        grid-template-columns: repeat(2,320px);
+        grid-template-rows: repeat(3,280px);
+        grid-template-areas:
+        "obenlinks obenrechts"
+        "mittelinks mitterechts"
+        "untenlinks untenrechts";
+        grid-gap: 10px;
+    }
+    
+    #Quadrat1{
+        grid-area: obenlinks;
+        display: grid;
+        width: 270px; /*160width-15width, wegen Grid-gap und border*/
+        height: 230px;
+        border: 10px solid grey;
+        padding: 10px;
+        font: 2pt;
+    }
+    #Quadrat2{
+        grid-area: obenrechts;
+        display: grid;
+        width: 270px;
+        height: 230px;
+        border: 10px solid grey;
+        padding: 10px;
+        font: 2pt;
+    }
+    #Quadrat3{
+        grid-area: mittelinks;
+        display: grid;
+        width: 270px;
+        height: 230px;
+        border: 10px solid grey;
+        padding: 10px;
+        font: 2pt;
+    }
+    #Quadrat4{
+        grid-area: mitterechts;
+        display: grid;
+        width: 270px;
+        height: 230px;
+        border: 10px solid grey;
+        padding: 10px;
+        font: 2pt;
+    }
+    #Quadrat5{
+        grid-area: untenlinks;
+        display: grid;
+        width: 270px;
+        height: 230px;
+        border: 10px solid grey;
+        padding: 10px;
+        font: 2pt;
+    }
+    #Quadrat6{
+        grid-area: untenrechts;
+        display: grid;
+        width: 270px;
+        height: 230px;
+        border: 10px solid grey;
+        padding: 10px;
+        font: 2pt;
+    }
+}
+
+@media(min-width: 901px)
+{
+    .nestedgrid{
+        display: grid;
+        grid-template-columns: repeat(2,480px);
+        grid-template-rows: repeat(3,420px);
+        grid-template-areas:
+        "obenlinks obenrechts"
+        "mittelinks mitterechts"
+        "untenlinks untenrechts";
+        grid-gap: 15px;
+    }
+    
+    #Quadrat1{
+        grid-area: obenlinks;
+        display: grid;
+        width: 405px; /*160width-15width, wegen Grid-gap und border*/
+        height: 345px;
+        border: 15px solid grey;
+        padding: 15px;
+        font: 3pt;
+    }
+    #Quadrat2{
+        grid-area: obenrechts;
+        display: grid;
+        width: 405px;
+        height: 345px;
+        border: 15px solid grey;
+        padding: 15px;
+        font: 3pt;
+    }
+    #Quadrat3{
+        grid-area: mittelinks;
+        display: grid;
+        width: 405px;
+        height: 345px;
+        border: 15px solid grey;
+        padding: 15px;
+        font: 3pt;
+    }
+    #Quadrat4{
+        grid-area: mitterechts;
+        display: grid;
+        width: 405px;
+        height: 345px;
+        border: 15px solid grey;
+        padding: 15px;
+        font: 3pt;
+    }
+    #Quadrat5{
+        grid-area: untenlinks;
+        display: grid;
+        width: 405px;
+        height: 345px;
+        border: 15px solid grey;
+        padding: 15px;
+        font: 3pt;
+    }
+    #Quadrat6{
+        grid-area: untenrechts;
+        display: grid;
+        width: 405px;
+        height: 345px;
+        border: 15px solid grey;
+        padding: 15px;
+        font: 3pt;
+    }
+}
