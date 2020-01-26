@@ -1,0 +1,48 @@
+#content1
+{
+    min-height: 20px;
+}
+
+#content2{
+    font-size: grey;
+}
+
+#content3
+{
+    min-height: 40px;
+}
+
+#content5{
+    border: 1px solid silver;
+    max-height: 12px;
+}
+
+#content6{
+    border: 1px solid silver;
+    max-height: 6px;
+}
+
+ul.bullet-points{
+    list-style-type: square;
+}
+
+ul.Aufzählung{
+    list-style-type: decimal;
+}
+
+
+.button {
+    display: flex;
+    width: 30px; 
+    height: 15px; 
+    border: 1px solid #aaa; 
+    border-radius: 5px; 
+    background: #eee; 
+    background-image: linear-gradient(#cdffbc, #6ec153); 
+    display: inline-block; 
+    align-items: center;
+    text-decoration: none; 
+    color: #333; 
+    font-size: 6px;
+    padding: 1px;   
+   }

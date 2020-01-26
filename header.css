@@ -1,0 +1,66 @@
+@media(max-width: 320px)
+{
+    #header1{
+        display: flex;
+        justify-content: center; /*horizontal mittig*/
+        align-items: center; /*horizontal mittig*/
+        font-size: 10pt;
+    }
+    #header2{
+        display: flex;
+        font-size: 10pt;
+        justify-content: center;
+        align-items: center;
+    }
+    #header3{
+        background-image: url("C:/Users/Gerrit/Desktop/proggen/Blog/depositphotos_200402344-stock-illustration-magnifier-colored-line-icon.jpg");
+        background-size: 25px 25px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 900px)
+{
+    #header1{
+        display: flex;
+        justify-content: center; /*horizontal mittig*/
+        align-items: center; /*horizontal mittig*/
+        font-size: 20pt;
+    }
+    #header2{
+        display: flex;
+        font-size: 20pt;
+        justify-content: center;
+        align-items: center;
+    }
+    #header3{
+        background-image: url("C:/Users/Gerrit/Desktop/proggen/Blog/depositphotos_200402344-stock-illustration-magnifier-colored-line-icon.jpg");
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+}
+
+@media(min-width: 901px)
+{
+    #header1{
+        display: flex;
+        justify-content: center; /*horizontal mittig*/
+        align-items: center; /*horizontal mittig*/
+        font-size: 30pt;
+    }
+    #header2{
+        display: flex;
+        font-size: 30pt;
+        justify-content: center;
+        align-items: center;
+    }
+    #header3{
+        background-image: url("C:/Users/Gerrit/Desktop/proggen/Blog/depositphotos_200402344-stock-illustration-magnifier-colored-line-icon.jpg");
+        background-size: 75px 75px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+}
+
